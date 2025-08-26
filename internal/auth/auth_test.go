@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestGGetAPIKey(t *testing.T) {
+func TestGetAPIKey(t *testing.T) {
 	token := "frodo"
 	prefix := "ApiKey "
 
