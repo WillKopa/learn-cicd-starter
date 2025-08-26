@@ -1,3 +1,5 @@
+![alt text goes here](https://github.com/WillKopa/learn-cicd-starter/actions/workflows/ci/badge.svg)
+
 # learn-cicd-starter (Notely)
 
 ![alt text goes here](https://github.com/WillKopa/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)

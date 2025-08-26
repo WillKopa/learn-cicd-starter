@@ -20,7 +20,7 @@ jobs:
       
       - name: Check format
         run: test -z $(go fmt ./...)
-
+        
   tests:
     name: Tests
     runs-on: ubuntu-latest
