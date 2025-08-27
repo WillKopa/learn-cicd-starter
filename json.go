@@ -30,5 +30,9 @@ func respondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 		return
 	}
 	w.WriteHeader(code)
-	w.Write(dat)
+	_, err = w.Write(dat)
+
+	if err != nil {
+		respondWithError(w, http.StatusInternalServerError, "Something went wrong creating the header response", err)
+	}
 }
