@@ -25,7 +25,7 @@ jobs:
         run: test -z $(go fmt ./...)
 
       - name: Lint
-        run: test -z $(staticcheck ./...)
+        run: staticcheck ./...
         
   tests:
     name: Tests
